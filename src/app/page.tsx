@@ -1,65 +1,114 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
+    <div className="mx-auto max-w-[650px]">
+      <h1 className="mb-[clamp(1.8rem,1.8rem+((1vw-0.48rem)*2.885),3rem)]">
+        UIO
+      </h1>
+
+      <div className="prose space-y-6">
+        <h3>UNITED INDIVIDUALS ORGANISATION</h3>
+
+        <p>
+          The{" "}
           <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="https://un.org/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
+            UNITED NATIONS ORGANIZATION (UNO)
+          </a>{" "}
+          is the intergovernmental organization of nation-states. Their main goal
+          is to maintain peace between nations. In this, they have been quite{" "}
           <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="https://ourworldindata.org/grapher/battle-related-deaths-in-state-based-conflicts-since-1946"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Documentation
+            successful
           </a>
-        </div>
-      </main>
+          .
+        </p>
+
+        <p>
+          Nation-states and the UN have{" "}
+          <a
+            href="https://www.who.int/health-topics/air-pollution#tab=tab_1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            not yet been successful
+          </a>{" "}
+          in addressing the global challenges of environmental pollution and
+          natural resource degradation. According to experts,{" "}
+          <a
+            href="https://www.cam.ac.uk/stories/dasguptareview"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            this might be systemic
+          </a>
+          .
+        </p>
+
+        <p>
+          The UNITED INDIVIDUALS ORGANISATION (UIO) is the organization of{" "}
+          <a
+            href="https://www.worldometers.info/watch/world-population/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            all people
+          </a>
+          .
+        </p>
+
+        <p>
+          The UIO has the goal to support the UN and the nation-states to reach
+          the{" "}
+          <a
+            href="https://en.unesco.org/sustainabledevelopmentgoals"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ESG targets
+          </a>
+          . This is done by making polluters and detractors of natural resources{" "}
+          <a
+            href="https://rebalancing.earth/#less"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            pay compensation and distributing this compensation equally
+          </a>{" "}
+          to all human beings.
+        </p>
+
+        <h3>The UIO</h3>
+
+        <p>
+          UIO is based on the fact that all living things on Earth have a
+          natural, inalienable right to fresh air, clean water, and the use of
+          sufficient land to survive. The goal of the UIO is to give all people
+          their due. The UIO constitutes itself on the basis of its{" "}
+          <a href="/charter">charter</a>.
+        </p>
+
+        <h3>THE UIO DAO</h3>
+
+        <p>
+          The idea of the UIO became possible through the internet and blockchain
+          technology. While all technologies are at hand, the implementation will
+          take some time. The development is driven by the{" "}
+          <a
+            href="https://rebalancing.earth/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            rebalancing.earth
+          </a>{" "}
+          initiative.
+        </p>
+      </div>
     </div>
   );
 }
